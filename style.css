@@ -1,0 +1,410 @@
+body {
+    background-color: #004F44;
+}
+.header {
+    display: grid;
+    grid-template-columns: [start] 7% [line2] 9% [line3] 8% [line4] 55% [line5] 11% [line6] 1% [line7] 3% [line8] 3% [line9] 3% [end];
+    text-align: center;
+    padding: 0 7% 3% 7%;
+}
+.header-text {
+    font-family: 'Open Sans';
+    font-weight:300;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.header-elements {
+    margin: auto;
+}
+.plantify-size {
+    width: 119px;
+    height: auto;
+}
+.slogan {
+    width: 407px;
+    height: 216px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+}
+.description {
+    width: 333px;
+    height: 56px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    padding: 5% 0;
+}
+.button {
+    width: 156px;
+    height: 59px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #004F44;
+    border: none;
+}
+.left-part {
+    margin: auto 0;
+}
+.flowers {
+    width: 607px;
+    height: 547.1917114257812px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.flower1 {
+    width: 222.82278442382812px;
+    height: 257.41229248046875px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.flower2 {
+    width: 222.82278442382812px;
+    height: 285.3887939453125px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.flower3 {
+    width: 379.78662109375px;
+    height: 547.1917114257812px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.center {
+    display: grid;
+    grid-template-columns: [start] 45% [line2] 55% [end];
+    padding: 0 2% 2% 7%;
+}
+.points {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+.collage {
+    position: relative;
+    width: 646px;
+    height: 578px;
+}
+.rectangle1 {
+    width: 77px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#FFFFFF;
+    background-color: #004F44;
+    position: absolute;
+    z-index: 2;
+    top: 2.5%;
+    left: 2.5%;
+}
+.rectangle1-text {
+    width: 47px;
+    height: 18px;
+    margin-top: 11%;
+    margin-left: 17%;
+}
+.rectangle2 {
+    width: 118px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#FFFFFF;
+    background-color: #004F44;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 2.5%;
+}
+.rectangle2-text {
+    width: 88px;
+    height: 18px;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.rectangle3 {
+    width: 146px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color:#FFFFFF;
+    background-color: #004F44;
+    position: absolute;
+    z-index: 2;
+    top: 2.5%;
+    left: 40%;
+}
+.rectangle3-text {
+    width: 116px;
+    height: 18px;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+.rectangle3-2 {
+    width: 327.0994567871094px;
+    height: 48.296566009521484px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3.2px;
+    color:#004F44;
+    background-color:#FFFFFF;
+    position: absolute;
+    border: none;
+    z-index: 3;
+    bottom: 4%;
+    left: 42%;
+}
+.gradient {
+    width: 379.78662109375px;
+    height: 318.3182678222656px;
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(#2E403D00, #234A45);
+    bottom: 0;
+    right: 0;
+}
+.flower3-name {
+    width: 274px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+    bottom: 15%;
+    right: 13.5%;
+    position: absolute;
+    z-index: 3;
+}
+.menu {
+    opacity: 0;
+}
+@media(max-width: 1350px) {
+    .header {
+    display: grid;
+    grid-template-columns: [start] 8% [line2] 10% [line3] 8% [line4] 50% [line5] 9% [line6] 1% [line7] 3% [line8] 3% [line9] 3% [end];
+    text-align: center;
+    padding: 0 0% 0% 5%;
+    }
+    .center {
+    display: grid;
+    grid-auto-flow: column dense;
+    grid-template-columns: [start] 100%;
+    grid-template-rows: [row1-start] 70% [row1-end] 50%;
+    padding: 0 0% 0% 0%;
+}
+.collage {
+    margin: 0 auto;
+    grid-row: 1;
+}
+.left-part {
+    grid-row: 2;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.slogan{
+    width: 704px;
+    height: 144px;
+    text-align: center;
+    margin: auto 0;
+}
+.description {
+    margin: 0 auto;
+}
+.button {
+    width: 484px;
+    height: 91px;
+    font-size: 36px;
+    margin: 0 auto;
+}
+}
+@media(max-width:901px) {
+      .header {
+             display: flex;
+              width: 607px;
+        align-items: center;
+        margin: auto;
+        padding: 0 -1px;
+        justify-content: space-between;
+    }
+    .header-elements {
+        flex: grid;
+        position: absolute;
+        z-index: 0;
+        opacity: 0;
+    }
+    .menu {
+        opacity: 1;
+    }
+    .plantify-size {
+        width: 180px;
+        height: auto;
+    }
+    .empty {
+        z-index: 0;
+    }
+}
+@media(max-width: 450px) {
+    .header {
+   width: 415px;
+    }
+    .menu-elements {
+        position: absolute;
+        z-index: 0;
+        opacity: 0;
+    }
+    .menu {
+        opacity: 1;
+    }
+    .plantify-size {
+        width: 180px;
+        height: auto;
+    }
+    .flowers {
+    width: 415px;
+    height: 370.1917114257812px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.flower1 {
+    width: 160.82278442382812px;
+    height: 180.41229248046875px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.flower2 {
+    width: 160.82278442382812px;
+    height: 185.3887939453125px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.flower3 {
+    width: 250.78662109375px;
+    height: 369.1917114257812px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.center {
+    display: grid;
+    grid-template-columns: [start] 60%;
+    grid-template-rows: [row1-start] 55% [row1-end] 50%;
+    padding: 0 0% 0% 0%;
+}
+.gradient {
+    bottom: -2px;
+    right: -2px;
+}
+.collage {
+    position: relative;
+    width: 446px;
+    height: 390px;
+    margin: 0 11%;
+}
+.rectangle1 {
+    width: 100px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.rectangle1-text {
+    width: 47px;
+    height: 18px;
+    margin-top: 7%;
+    margin-left: 22%;
+}
+.rectangle2 {
+    width: 140px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    top: 52%;
+}
+.rectangle2-text {
+    margin-top: 4%;
+    margin-left: 12%;
+}
+.rectangle3 {
+    width: 180px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    left: 42%;
+}
+.rectangle3-text {
+    margin-top: 3%;
+    margin-left: 11%;
+}
+.rectangle3-2 {
+    width: 197.0994567871094px;
+    height: 38.296566009521484px;
+    font-weight: 600;
+    font-size: 14px;
+    left: 45%;
+}
+.points {
+    width: 90px;
+    height: auto;
+    bottom: 0%;
+    left: 0%;
+}
+.flower3-name {
+    opacity: 0;
+}
+.slogan {
+    width: 450px;
+    height: 146px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;;
+    letter-spacing: 1.5px;
+    line-height: 80px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 5% 0 0 12%;
+}
+.description {
+    width: 390.31817626953125px;
+    height: 100.239295959472656px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 2% 12%;
+}
+.button {
+    width: 390px;
+    height: 65px;
+    font-size: 24px;
+    margin: 3% 0 0 6%;
+}
+}
